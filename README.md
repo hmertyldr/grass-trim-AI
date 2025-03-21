@@ -22,8 +22,7 @@ Aşağıda mevcut segmentasyon sonuçlarından bir örnek bulunmaktadır:
 ![image](https://github.com/user-attachments/assets/324c3093-f753-4249-b1be-18748f3d7ab5)
 
 
-## Kullanılan Teknolojiler  
-- Python  
+## Kullanılan Kütüphaneler  
 - OpenCV  
 - NumPy  
 - Matplotlib (görselleştirme için)  
@@ -38,3 +37,10 @@ Aşağıda mevcut segmentasyon sonuçlarından bir örnek bulunmaktadır:
    ```bash
    git clone https://github.com/kullanici-adiniz/grass-trim-AI.git
    cd grass-trim-AI
+2. Bağımlılıkları yükleyin:
+   ```bash
+   pip install -r requirements.txt
+   
+3. Segmentasyon scriptini çalıştırın:
+   ```bash
+   python main.py
