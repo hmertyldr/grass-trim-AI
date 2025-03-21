@@ -61,7 +61,7 @@ def apply_watershed(img, mask_green):
 
 if __name__ == "__main__":
     # Görüntüyü yükle
-    imgPath = "dolmabahce.png"  # Resim dosya yolunu buraya ekle
+    imgPath = "Anitkabir.png"  # Resim dosya yolunu buraya ekle
     img = cv.imread(imgPath)
 
     # Segmentasyon işlemi
