@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/dfab8217-32da-4b11-95ef-c5d7dfd68bbd)# Grass-Trim-AI  
+# Grass-Trim-AI  
 
 Grass-Trim-AI, uydu görüntülerini analiz ederek çim büyümesini tespit eden ve izleyen bir projedir. Watershed algoritmasını kullanarak yolları, binaları, ağaçları ve çimleri birbirinden ayırır ve bunları farklı renklerle gösterir. Şu an proje sadece segmentasyon işlemini gerçekleştirirken, ilerleyen aşamalarda çimlerin uzama durumunu analiz ederek budama alarmı verecek şekilde geliştirilecektir.  
 
