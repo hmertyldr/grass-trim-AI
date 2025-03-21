@@ -39,7 +39,7 @@ Aşağıda mevcut segmentasyon sonuçlarından bir örnek bulunmaktadır:
    cd grass-trim-AI
 2. Bağımlılıkları yükleyin:
    ```bash
-   pip install -r requirements.txt
+   pip install opencv-python matplotlib numpy
    
 3. Segmentasyon scriptini çalıştırın:
    ```bash
