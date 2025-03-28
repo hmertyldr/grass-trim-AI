@@ -61,7 +61,7 @@ def apply_watershed(img, mask_green):
 
 if __name__ == "__main__":
     # Görüntüyü yükle
-    imgPath = "Anitkabir.png"  # Resim dosya yolunu buraya ekle
+    imgPath = "dolmabahce.png"  # Resim dosya yolunu buraya ekle
     img = cv.imread(imgPath)
 
     # Segmentasyon işlemi
@@ -71,10 +71,10 @@ if __name__ == "__main__":
     watershed_img, markers = apply_watershed(img, mask_green)
 
     # Son görüntüyü oluştur: evler, yollar ve yeşil alanlar birleşik
-    combined_img = cv.addWeighted(segmented_img, 0.6, watershed_img, 0.4, 0)
+    combined_img = cv.addWeighted(segmented_img, 0.5, watershed_img, 0.4, 0)
 
     # Yarı saydam görüntüyü orijinal görüntü ile birleştir
-    final_img = cv.addWeighted(combined_img, 0.7, img, 0.3, 0)
+    final_img = cv.addWeighted(combined_img, 0.8, img, 0.2, 0)
 
     # Sonuçları göster
     plt.figure(figsize=(12, 12))
